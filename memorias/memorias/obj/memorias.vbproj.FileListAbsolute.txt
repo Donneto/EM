@@ -1,0 +1,128 @@
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\bin\Debug\memorias.exe.config
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.exe
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.xml
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.pdb
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\bin\Debug\memorias.exe
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\bin\Debug\memorias.pdb
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\bin\Debug\memorias.xml
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.capacitadores.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.iniciocapacitadores.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.listataller.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.menu.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.iniciomemorias.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.memoriass.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.iniciomovpolitico.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.movpolitico.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.Resources.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.depto.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.general.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.iniciopaises.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.municipio.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.paises.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.inicioparticipantes.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.participantes.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.vertalleres.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.pkcapacitador.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.pkdepto.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.pkgeneral.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.pkmemoria.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.pkmovpolitico.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.pkmuni.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.pkparticipante.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.pkperiodo.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.pkregiones.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.pktalleres.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.pktipotaller.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.detallesregiones.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.inicioregiones.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.regiones.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.iniciotaller.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.tallerest.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.vparticipantes.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.iniciotipotaller.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.ttalleres.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.rpt_capacitadores.rpt
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.Reporte.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.rpt_mov_politico.rpt
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.rpt_pais.rpt
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.rpt_region.rpt
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.rpt_lista_memorias.rpt
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.rpt_memoria.rpt
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.rpt_participantes.rpt
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.rpt_tipotaller.rpt
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.rpt_talleres.rpt
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.rpt_participantesxtaller.rpt
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.rpt_talleresxparticipante.rpt
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.rpt_deptos.rpt
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.rpt_municipios.rpt
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.MantTalleres.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.exe.licenses
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.pick.resources
+C:\Users\rramirez\Documents\Visual Studio 2005\Projects\memorias\memorias\bin\Debug\memorias.exe.config
+C:\Users\rramirez\Documents\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.exe
+C:\Users\rramirez\Documents\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.xml
+C:\Users\rramirez\Documents\Visual Studio 2005\Projects\memorias\memorias\obj\Debug\memorias.pdb
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\bin\Debug\memorias.exe.config
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.exe
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.xml
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.pdb
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\bin\Debug\memorias.exe
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\bin\Debug\memorias.pdb
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\bin\Debug\memorias.xml
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.rpt_capacitadores.rpt
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.rpt_deptos.rpt
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.rpt_lista_memorias.rpt
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.rpt_memoria.rpt
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.rpt_mov_politico.rpt
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.rpt_municipios.rpt
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.rpt_pais.rpt
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.rpt_participantes.rpt
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.rpt_participantesxtaller.rpt
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.rpt_region.rpt
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.rpt_talleres.rpt
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.rpt_talleresxparticipante.rpt
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.rpt_tipotaller.rpt
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.capacitadores.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.iniciocapacitadores.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.listataller.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.menu.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.iniciomemorias.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.memoriass.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.iniciomovpolitico.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.movpolitico.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.Resources.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.depto.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.general.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.iniciopaises.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.municipio.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.paises.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.inicioparticipantes.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.participantes.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.vertalleres.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.pkcapacitador.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.pkdepto.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.pkgeneral.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.pkmemoria.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.pkmovpolitico.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.pkmuni.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.pick.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.pkparticipante.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.pkperiodo.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.pkregiones.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.pktalleres.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.pktipotaller.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.detallesregiones.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.inicioregiones.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.regiones.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.Reporte.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.iniciotaller.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.MantTalleres.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.tallerest.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.vparticipantes.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.iniciotipotaller.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.ttalleres.resources
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.vbproj.GenerateResource.Cache
+C:\Users\rramirez\Dropbox\Proyec7s\memorias\memorias\obj\Debug\memorias.exe.licenses

@@ -1,0 +1,774 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{99D10708-AFD0-465D-9628-2D095891346C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>memorias.My.MyApplication</StartupObject>
+    <RootNamespace>memorias</RootNamespace>
+    <AssemblyName>memorias</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <ApplicationIcon>sC1.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>memorias.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>memorias.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="DevExpress.Data.v7.2, Version=7.2.2.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.Utils.v7.2, Version=7.2.2.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraBars.v7.2, Version=7.2.2.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraEditors.v7.2, Version=7.2.2.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraGrid.v7.2, Version=7.2.2.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraPivotGrid.v7.2, Version=7.2.2.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraPivotGrid.v7.2.Core, Version=7.2.2.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v7.2, Version=7.2.2.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="capacitadores\capacitadores.Designer.vb">
+      <DependentUpon>capacitadores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="capacitadores\capacitadores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="capacitadores\iniciocapacitadores.Designer.vb">
+      <DependentUpon>iniciocapacitadores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="capacitadores\iniciocapacitadores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="capacitadores\listataller.Designer.vb">
+      <DependentUpon>listataller.vb</DependentUpon>
+    </Compile>
+    <Compile Include="capacitadores\listataller.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clases\ClasesGenerales.vb" />
+    <Compile Include="dtset\dtset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dtset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dtset\dtset.vb">
+      <DependentUpon>dtset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inicio\menu.Designer.vb">
+      <DependentUpon>menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="inicio\menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="memorias\iniciomemorias.Designer.vb">
+      <DependentUpon>iniciomemorias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="memorias\iniciomemorias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="memorias\memoriass.Designer.vb">
+      <DependentUpon>memoriass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="memorias\memoriass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="movimientopolitico\iniciomovpolitico.Designer.vb">
+      <DependentUpon>iniciomovpolitico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="movimientopolitico\iniciomovpolitico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="movimientopolitico\movpolitico.Designer.vb">
+      <DependentUpon>movpolitico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="movimientopolitico\movpolitico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="paises\depto.Designer.vb">
+      <DependentUpon>depto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="paises\depto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="paises\general.Designer.vb">
+      <DependentUpon>general.vb</DependentUpon>
+    </Compile>
+    <Compile Include="paises\general.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="paises\iniciopaises.Designer.vb">
+      <DependentUpon>iniciopaises.vb</DependentUpon>
+    </Compile>
+    <Compile Include="paises\iniciopaises.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="paises\municipio.Designer.vb">
+      <DependentUpon>municipio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="paises\municipio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="paises\paises.Designer.vb">
+      <DependentUpon>paises.vb</DependentUpon>
+    </Compile>
+    <Compile Include="paises\paises.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="participantes\inicioparticipantes.Designer.vb">
+      <DependentUpon>inicioparticipantes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="participantes\inicioparticipantes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="participantes\participantes.Designer.vb">
+      <DependentUpon>participantes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="participantes\participantes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="participantes\vertalleres.Designer.vb">
+      <DependentUpon>vertalleres.vb</DependentUpon>
+    </Compile>
+    <Compile Include="participantes\vertalleres.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pklist\pkcapacitador.Designer.vb">
+      <DependentUpon>pkcapacitador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pklist\pkcapacitador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pklist\pkdepto.Designer.vb">
+      <DependentUpon>pkdepto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pklist\pkdepto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pklist\pkgeneral.Designer.vb">
+      <DependentUpon>pkgeneral.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pklist\pkgeneral.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pklist\pkmemoria.Designer.vb">
+      <DependentUpon>pkmemoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pklist\pkmemoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pklist\pkmovpolitico.Designer.vb">
+      <DependentUpon>pkmovpolitico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pklist\pkmovpolitico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pklist\pkmuni.Designer.vb">
+      <DependentUpon>pkmuni.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pklist\pkmuni.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pklist\pick.Designer.vb">
+      <DependentUpon>pick.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pklist\pick.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pklist\pkparticipante.Designer.vb">
+      <DependentUpon>pkparticipante.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pklist\pkparticipante.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pklist\pkperiodo.Designer.vb">
+      <DependentUpon>pkperiodo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pklist\pkperiodo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pklist\pkregiones.Designer.vb">
+      <DependentUpon>pkregiones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pklist\pkregiones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pklist\pktalleres.Designer.vb">
+      <DependentUpon>pktalleres.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pklist\pktalleres.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pklist\pktipotaller.Designer.vb">
+      <DependentUpon>pktipotaller.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pklist\pktipotaller.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="regiones\detallesregiones.Designer.vb">
+      <DependentUpon>detallesregiones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="regiones\detallesregiones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="regiones\inicioregiones.Designer.vb">
+      <DependentUpon>inicioregiones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="regiones\inicioregiones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="regiones\regiones.Designer.vb">
+      <DependentUpon>regiones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="regiones\regiones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporte\Reporte.Designer.vb">
+      <DependentUpon>Reporte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reporte\Reporte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporte\rpt_capacitadores.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_capacitadores.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reporte\rpt_deptos.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_deptos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reporte\rpt_lista_memorias.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_lista_memorias.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reporte\rpt_memoria.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_memoria.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reporte\rpt_mov_politico.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_mov_politico.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reporte\rpt_municipios.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_municipios.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reporte\rpt_pais.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_pais.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reporte\rpt_participantes.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_participantes.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reporte\rpt_participantesxtaller.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_participantesxtaller.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reporte\rpt_region.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_region.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reporte\rpt_talleres.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_talleres.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reporte\rpt_talleresxparticipante.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_talleresxparticipante.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reporte\rpt_tipotaller.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_tipotaller.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="taller\iniciotaller.Designer.vb">
+      <DependentUpon>iniciotaller.vb</DependentUpon>
+    </Compile>
+    <Compile Include="taller\iniciotaller.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="taller\MantTalleres.Designer.vb">
+      <DependentUpon>MantTalleres.vb</DependentUpon>
+    </Compile>
+    <Compile Include="taller\MantTalleres.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="taller\tallerest.Designer.vb">
+      <DependentUpon>tallerest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="taller\tallerest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="taller\vparticipantes.Designer.vb">
+      <DependentUpon>vparticipantes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="taller\vparticipantes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tipotaller\iniciotipotaller.Designer.vb">
+      <DependentUpon>iniciotipotaller.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tipotaller\iniciotipotaller.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tipotaller\ttalleres.Designer.vb">
+      <DependentUpon>ttalleres.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tipotaller\ttalleres.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="variables.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="capacitadores\capacitadores.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>capacitadores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="capacitadores\iniciocapacitadores.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>iniciocapacitadores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="capacitadores\listataller.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>listataller.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inicio\menu.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="memorias\iniciomemorias.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>iniciomemorias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="memorias\memoriass.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>memoriass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="movimientopolitico\iniciomovpolitico.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>iniciomovpolitico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="movimientopolitico\movpolitico.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>movpolitico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="paises\depto.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>depto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="paises\general.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>general.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="paises\iniciopaises.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>iniciopaises.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="paises\municipio.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>municipio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="paises\paises.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>paises.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="participantes\inicioparticipantes.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>inicioparticipantes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="participantes\participantes.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>participantes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="participantes\vertalleres.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>vertalleres.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pklist\pkcapacitador.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pkcapacitador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pklist\pkdepto.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pkdepto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pklist\pkgeneral.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pkgeneral.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pklist\pkmemoria.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pkmemoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pklist\pkmovpolitico.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pkmovpolitico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pklist\pkmuni.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pkmuni.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pklist\pick.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pick.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pklist\pkparticipante.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pkparticipante.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pklist\pkperiodo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pkperiodo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pklist\pkregiones.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pkregiones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pklist\pktalleres.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pktalleres.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pklist\pktipotaller.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pktipotaller.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="regiones\detallesregiones.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>detallesregiones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="regiones\inicioregiones.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>inicioregiones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="regiones\regiones.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>regiones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte\Reporte.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Reporte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte\rpt_capacitadores.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_capacitadores.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte\rpt_deptos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_deptos.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte\rpt_lista_memorias.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_lista_memorias.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte\rpt_memoria.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_memoria.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte\rpt_mov_politico.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_mov_politico.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte\rpt_municipios.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_municipios.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte\rpt_pais.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_pais.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte\rpt_participantes.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_participantes.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte\rpt_participantesxtaller.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_participantesxtaller.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte\rpt_region.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_region.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte\rpt_talleres.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_talleres.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte\rpt_talleresxparticipante.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_talleresxparticipante.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte\rpt_tipotaller.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_tipotaller.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="taller\iniciotaller.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>iniciotaller.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="taller\MantTalleres.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MantTalleres.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="taller\tallerest.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>tallerest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="taller\vparticipantes.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>vparticipantes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tipotaller\iniciotipotaller.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>iniciotipotaller.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tipotaller\ttalleres.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ttalleres.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snow-leopard-wallpaper-11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="dtset\dtset.xsc">
+      <DependentUpon>dtset.xsd</DependentUpon>
+    </None>
+    <None Include="dtset\dtset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dtset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dtset\dtset.xss">
+      <DependentUpon>dtset.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\Windows 7 PDC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Brushed Metal-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new doc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Users.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Book Open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gears.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lupa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lupa1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Member Card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xfce-office.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock_new-address-book.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Actions-mail-mark-task-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\statistics-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\earth-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\data-management-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\books-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Honduras-Flag-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Honduras-Flag-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\books-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\earth-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filesave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filesave1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gtk-cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1320868920_stock_book_blue.ico" />
+    <Content Include="sC1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="matricula\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

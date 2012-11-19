@@ -1,0 +1,604 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+memorias
+</name>
+</assembly>
+<members>
+<member name="P:memorias.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:memorias.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:memorias.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:memorias.dtset.capacitadoresDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.tipo_tallerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.deptoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.generalDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.memoriasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.mov_politicoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.municipioDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.paisDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.participantesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.periodoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.regionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.region_deptoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.region_generalDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.region_municipioDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.region_paisDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.tallerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.taller_participanteDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.tipo_participanteDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.inicioparticipantesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.iniciomovpoliticoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.pais_region_listDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.municipio_region_listDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.depto_region_listDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.general_region_listDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.listaparticipantesxtallerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.listatallerxparticipanteDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.rpt_capaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.Rpt_capacitadorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.vta_memoriasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.rpt_participantesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.rpt_talleresDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.rpt_listaparticipantesxtallerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.rpt_talleresxparticipanteDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.rpt_deptosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.rpt_municipioDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.taller_capacitadorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:memorias.dtset.capacitadoresRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.tipo_tallerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.deptoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.generalRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.memoriasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.mov_politicoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.municipioRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.paisRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.participantesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.periodoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.regionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.region_deptoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.region_generalRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.region_municipioRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.region_paisRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.tallerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.taller_participanteRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.tipo_participanteRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.inicioparticipantesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.iniciomovpoliticoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.pais_region_listRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.municipio_region_listRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.depto_region_listRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.general_region_listRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.listaparticipantesxtallerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.listatallerxparticipanteRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.rpt_capaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.Rpt_capacitadorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.vta_memoriasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.rpt_participantesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.rpt_talleresRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.rpt_listaparticipantesxtallerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.rpt_talleresxparticipanteRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.rpt_deptosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.rpt_municipioRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.taller_capacitadorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:memorias.dtset.capacitadoresRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.tipo_tallerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.deptoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.generalRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.memoriasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.mov_politicoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.municipioRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.paisRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.participantesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.periodoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.regionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.region_deptoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.region_generalRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.region_municipioRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.region_paisRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.tallerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.taller_participanteRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.tipo_participanteRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.inicioparticipantesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.iniciomovpoliticoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.pais_region_listRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.municipio_region_listRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.depto_region_listRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.general_region_listRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.listaparticipantesxtallerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.listatallerxparticipanteRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.rpt_capaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.Rpt_capacitadorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.vta_memoriasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.rpt_participantesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.rpt_talleresRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.rpt_listaparticipantesxtallerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.rpt_talleresxparticipanteRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.rpt_deptosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.rpt_municipioRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset.taller_capacitadorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:memorias.dtset">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.capacitadoresTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.tipo_tallerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.deptoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.generalTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.memoriasTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.mov_politicoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.municipioTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.paisTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.participantesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.periodoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.regionTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.region_deptoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.region_generalTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.region_municipioTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.region_paisTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.tallerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.taller_participanteTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.tipo_participanteTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.inicioparticipantesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.iniciomovpoliticoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.pais_region_listTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.municipio_region_listTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.depto_region_listTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.general_region_listTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.listaparticipantesxtallerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.listatallerxparticipanteTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.rpt_capaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.Rpt_capacitadorTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.vta_memoriasTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.rpt_participantesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.rpt_talleresTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.rpt_listaparticipantesxtallerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.rpt_talleresxparticipanteTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.rpt_deptosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.rpt_municipioTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:memorias.dtsetTableAdapters.taller_capacitadorTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+</members>
+</doc>
